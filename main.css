@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Lobster+Two:ital@0;1&family=Manrope&family=Poppins:wght@300;500&family=Space+Grotesk:wght@300;400;500&family=Staatliches&family=Yeseva+One&display=swap');
 
+@font-face {
+    font-family: primary;
+    src: url(media/CQMono.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -123,7 +128,7 @@ div.border_animation {
 .ani_btn {
     padding: 1%;
     font-size: 3em;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'primary', sans-serif;
     background-color: #52e725bb;
     display: block;
     margin: auto;
